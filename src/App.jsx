@@ -3,7 +3,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import './App.css'
 import { Home } from './components/home';
 import { ProgramAndSkills } from './components/programsAndSkills';
-import ProgramsHome from './components/Programs-work-flow/programsHome';
+import {ProgramsHome} from './components/Programs-work-flow/programsHome.jsx'
 import { TrustedProgram } from './components/Trusted-programs/trustedProgram';
 import { TechnologyHome } from './components/Technologies/technologyHome.jsx';
 import { Leader } from './components/Leaning/leader';

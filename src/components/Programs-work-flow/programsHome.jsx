@@ -3,7 +3,7 @@ import ProgramNavigation from './ProgramNavigation.jsx';
 import ProgramNavigationData from './programNavigationData.jsx';
 import { IMG } from '../images';  // Importing image data
 
-const ProgramsHome = () => {
+export const ProgramsHome = () => {
   const navItemsData = [
     {
       label: 'Industry-vetted curriculum',
@@ -75,7 +75,7 @@ const ProgramsHome = () => {
   );
 };
 
-export default ProgramsHome;
+
 
 
 
