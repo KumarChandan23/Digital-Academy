@@ -1,0 +1,25 @@
+
+
+.csalf-container{
+    display:grid;
+    grid-template-columns: 5.8fr 0.2fr 6fr;
+     gap:"40px";  
+}
+
+@media(max-width:480px){
+.csalf-container{
+    display:block;
+}
+.learner-caption{
+    font-size: 20px;
+    padding: 0;
+}
+.learner-brand-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.learner-from-country-flag{
+    width: 45px;
+}
+}

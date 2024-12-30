@@ -1,0 +1,32 @@
+
+.trusted-program-container{
+    margin: 45px 0 25px 0;
+    padding: 0 10px;
+}
+.trusted-program-list{
+    padding: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.rating-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rating-count{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(169, 173, 177);
+}
+@media (max-width:480px) {
+    .trusted-program-list{
+        padding: 0 5px;
+        display: flex;
+        justify-content: start;
+        overflow: hidden;
+        align-items: center;
+        gap:30px;
+    }
+}

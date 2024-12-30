@@ -1,0 +1,58 @@
+.program-caption-container {
+    padding: 0 20px;
+
+}
+
+.programs-navigation-container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    height: 400px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.programs-list-item {
+    list-style-type: none;
+    border-radius: 10px;
+    height: 40px;
+    margin: 0 20px 13px 10px;
+    align-content: center;
+    text-align: center;
+    border-left: 12px solid #fff;
+    box-shadow: 0px 2px 5px #f5f0f0;
+    color: #111;
+
+}
+
+.programs-list-item.selected {
+    color: #DC3545;
+    border-left: 12px solid #DC3545;
+
+}
+
+@media (max-width:480px) {
+    .programs-navigation-container {
+        display: block;
+        height: auto;
+    }
+
+    .program-list {
+        display: flex;
+    /* gap:20px; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    }
+
+    .programs-list-item {
+        flex-shrink: 0;
+        width: 200px;
+        flex: 0 0 250px;
+    }
+    .programs-list-item.selected {
+        border-left: 6px solid #DC3545;
+    
+    }
+}

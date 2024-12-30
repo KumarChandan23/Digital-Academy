@@ -1,0 +1,27 @@
+
+.video-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.embed-video{
+    width: 25vw;
+    height: 200px;
+    border: none;
+}
+
+@media (max-width:480px) {
+    .video-container{
+        overflow: hidden;
+    }
+    .video-title{
+        font-size: 27px;
+        margin: 10px 0;
+    }
+    .embed-video{
+        width: 350px;
+        height: 200px;
+        border: none;
+    }
+}

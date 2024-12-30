@@ -1,0 +1,35 @@
+
+.life-title{
+    margin: 10px 0;
+}
+
+.life-image-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    margin: 10px 0;
+}
+.life-image{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width:480px) {
+    .life-image-container{
+        display: flex;
+        align-items: center;
+        overflow: scroll;
+        padding: 10px;
+    }
+    .life-image-container2{
+        display: flex;
+        align-items: center;
+    }
+    .life-image{
+        border-radius: 5px;
+        width: 300px;
+        height: 200px;
+
+    }
+}

@@ -1,0 +1,112 @@
+
+.textimonial-container{
+    width: calc(100vw - 100px);
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    overflow: hidden;
+}
+.testimonilas-caption-container{
+    padding: 10px;
+    p{
+        color: rgb(207, 29, 29);
+        font-weight: 600;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 35px;
+        font-weight: 500;
+    }
+}
+.testimonial-navigation-icon{
+    border-radius: 50%;  
+    text-align: center;
+    height:23px;
+    width:23px;
+    padding: 5px;
+    border:1px solid rgb(113, 111, 111);
+    margin-right: 30px;  
+    opacity: 0.5;
+    cursor: pointer;
+}
+.testimonial-data-list-container{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    user-select: none; /* Prevents text selection */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    cursor:grab;
+}
+.testimonial-data-item{
+    flex-shrink: 0;
+    flex: 0 0 500px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap:20px;
+    background-color: #F3F4F6;
+}
+.testimonial-profile-data{
+    padding:0 17px;
+}
+.testimonial-profile-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.testimonial-data-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  @media (max-width:480px) {
+    .textimonial-container{
+        display: block;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .testimonilas-caption-container{
+        display: none;
+    }
+    .testimonial-data-list-container{
+        display: block;
+        /* border:2px solid red; */
+        height: 210px;
+        padding: 10px;
+    }
+    .testimonial-data-item{
+        width: 300px;
+        height: 200px;
+        display: block;
+        position: relative;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .testimonial-profile-data{
+        width: 50px;
+    }
+    .testimonial-profile-name{
+        position: absolute;
+        top: 5px;
+        left: 30%;
+    }
+    .quotes-icon{
+        display: none;
+    }
+    .testimonial-user-caption{
+        width: 280px;
+        margin: 0;
+        font-size: 14px;
+    }
+  }

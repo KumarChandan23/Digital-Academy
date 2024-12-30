@@ -1,0 +1,21 @@
+.star {
+    font-size: 25px; /* Adjust star size */
+    margin-right: 2px;
+    color: #ccc; /* Default empty star color */
+}
+
+.star.filled {
+    color: gold; /* Color for filled stars */
+}
+
+.star.half {
+    background: linear-gradient(90deg, gold 50%, #ccc 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}

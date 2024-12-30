@@ -1,0 +1,23 @@
+.placement-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.placement-container, h1, p {
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+@media (max-width:480px) {
+.placement-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    padding: 10px;
+}
+.placement-caption{
+    font-size: 25px;
+}
+}
