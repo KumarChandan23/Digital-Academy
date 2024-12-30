@@ -5,7 +5,7 @@ import { Home } from './components/home';
 import { ProgramAndSkills } from './components/programsAndSkills';
 import ProgramsHome from './components/Programs-work-flow/programsHome';
 import { TrustedProgram } from './components/Trusted-programs/trustedProgram';
-import { TechnologyHome } from './components/Technologies/technologyHome';
+import { TechnologyHome } from './components/Technologies/technologyHome.jsx';
 import { Leader } from './components/Leaning/leader';
 import { VideoEmbed } from './components/Learn From Video/videoEmbed';
 import { LearnerWorking } from './components/Bransds/learnerWorking/LearnerWorking';

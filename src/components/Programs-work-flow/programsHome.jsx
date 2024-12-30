@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ProgramNavigation from './ProgramNavigation';
-import ProgramNavigationData from './programNavigationData';
+import ProgramNavigation from './ProgramNavigation.jsx';
+import ProgramNavigationData from './programNavigationData.jsx';
 import { IMG } from '../images';  // Importing image data
 
 const ProgramsHome = () => {
