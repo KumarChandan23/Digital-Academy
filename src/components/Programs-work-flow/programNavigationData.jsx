@@ -8,6 +8,7 @@ const ProgramNavigationData = ({ item }) => {
                 <ul  className="programs-data-list">
                     {item.listItem.map((point, index) => (
                         <li key={index}>{point}</li>
+
                     ))}
                 </ul>
                 <button className='enquire-button'>Enquired Now</button>
